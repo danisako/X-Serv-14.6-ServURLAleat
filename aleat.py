@@ -7,9 +7,9 @@ Ejercicio: Servidor URLs Aleatorias
 """
 
 
-import webaleatorias
+import webapp
 import random
-class UrlApp(webaleatorias.webApp):
+class UrlApp(webapp.webApp):
 
 
 	def process(self, parsedRequest): 
